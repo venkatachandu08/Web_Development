@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9770234-b83a-4280-9936-53a4de5428ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="f9770234-b83a-4280-9936-53a4de5428ec" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +45,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="47" />
-    <option name="y" value="106" />
+    <option name="x" value="-172" />
+    <option name="y" value="77" />
     <option name="width" value="1942" />
     <option name="height" value="1102" />
   </component>
@@ -100,15 +98,15 @@
       <option name="presentableId" value="Default" />
       <updated>1592719333455</updated>
       <workItem from="1592719335810" duration="515000" />
-      <workItem from="1592722675187" duration="319000" />
+      <workItem from="1592722675187" duration="768000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="834000" />
+    <option name="totallyTimeSpent" value="1283000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="106" width="1942" height="1102" extended-state="0" />
+    <frame x="-172" y="77" width="1942" height="1102" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25405404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
