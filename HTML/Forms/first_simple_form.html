@@ -9,22 +9,23 @@
     <!--We will actually submit it to serverhere its just example-->
     <form action=http://wikipedia.com" method ="GET">
         <label>
-            Username:
-            <input name = "username" type="text" placeholder="Username">
+            Email:
+            <input name = "username" type="Email" placeholder="Username" required>
         </label>
+        set type to email just to keep it appropriate validation
         <!--<input type="color">-->
         <!--<input type="radio">-->
         <label>
             Password:
-            <input name="password" type="password" placeholder="Password">
+            <input name="password" type="password" placeholder="Password" required>
         </label>
         <button>Submit</button>
         <!--<input type="Submit">-->
     </form>
-
+    <h4>Use required attribute at the end in input to make fields not empty</h4>
     <!--<p>Labels are needed to make page accessible</p>-->
-    <!--<p>We should put input inside label tag</p>&lt;!&ndash;&ndash;&gt;-->
-    <!--<p>Each label for Each Input</p>&lt;!&ndash;&ndash;&gt;-->
+    <!--<p>We should put input inside label tag</p>-->
+    <!--<p>Each label for Each Input</p>-->
     <!--By putting name in input tag it gets appended to link like -->
     <!--its added to help in retrieving data-->
     <!--So that data is sent from the form and sent for request-->
@@ -38,9 +39,9 @@
 <h3>Another way of connecting Labels and input tags </h3>
     <form action=http://wikipedia.com" method ="GET">
         <label for ="username">Username:</label>
-        <input id="username" name = "username" type="text" placeholder="Username">
+        <input id="username" name = "username" type="text" placeholder="Username" required>
         <label for = "password">Password:</label>
-        <input id ="password" name="password" type="password" placeholder="Password">
+        <input id ="password" name="password" type="password" placeholder="Password" required>
         <p>As long as for in label and id in input are same they are related</p>
         <button>Submit</button>
     </form>
