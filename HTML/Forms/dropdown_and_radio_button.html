@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check box and Radio buttons</title>
+</head>
+<body>
+<!--We can check or uncheck the option in checkboc-->
+<!--Whereas in radiobutton we generally have one option-->
+<!--we cannot uncheck it unless we check on another one-->
+
+                <!--Radio Button-->
+     <form>
+         <label for="Male">Male</label>
+         <input name="gender" id="Male" type="radio" value="MALE">
+         <label for="Female">Female</label>
+         <input name="gender" id="Female" type="radio" value="FEMALE">
+         <button>Submit</button>
+         <!--<p>Here 1.for in in label & id in input connects them</p>-->
+         <!--<p>2.name in input is realted to http request</p>-->
+         <!--<p>so this name attribute connects two labels or inputs</p>-->
+         <!--<p>so that only one input is chosen</p>-->
+         <!--Here if we dont give value in input then the default value in http-->
+         <!--will be like gender=on and if we use value attribute value="MALE"or value="FEMALE"-->
+     </form>
+</body>
+</html>
+
+                <!--Drop Down-->
+<h3>What is your current mood</h3>
+<form>
+    <label>Bio:
+    <textarea name="paragraph" rows="5" cols="10"></textarea>
+    </label>
+    <select name="color">
+        <option value="Happy">:)</option>
+        <option value="Blush">:')</option>
+        <option value="Nothing">:|</option>
+    </select>
+    <button>GO!</button>
+</form>
+
+<p>We use select tag to put dropdown menu</p>
+<p>We use option tag to put options inside the select box</p>
+<p>Here when we need to pass anything in http we use name attribute</p>
+<p> To choose particular value when we choose particular option we use</p>
+<p> seperate value attribute for each option</p>
+<p>When we want to take user bio as input just textbox isnt enough</p>
+<p>We should use text area in that case (size can be defined by rows and cols</p>
