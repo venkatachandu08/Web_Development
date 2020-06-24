@@ -1,16 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:http="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Form Demo</title>
 </head>
 <body>
     <h1>Login</h1>
-    <input type="text" placeholder="Username">
-    <!--<input type="color">-->
-    <!--<input type="radio">-->
-    <input type="password" placeholder="Password">
-    <button>Submit</button>
-    <!--<input type="Submit">-->
+    <!--We will actually submit it to serverhere its just example-->
+    <form action=http://wikipedia.com" method ="GET">
+        <input name = "username" type="text" placeholder="Username">
+        <!--<input type="color">-->
+        <!--<input type="radio">-->
+        <input name="password" type="password" placeholder="Password">
+        <button>Submit</button>
+        <!--<input type="Submit">-->
+    </form>
+
+
+    <!--By putting name in input tag it gets appended to link like -->
+    <!--its added to help in retrieving data-->
+    <!--So that data is sent from the form and sent for request-->
+
+
+<!--If we use form tag,the page automatically refreshes when we-->
+<!--press submit else it wont also the components added after form will-->
+<!--take a new line-->
 </body>
 </html>
