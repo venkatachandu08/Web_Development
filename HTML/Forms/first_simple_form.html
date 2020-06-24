@@ -8,15 +8,23 @@
     <h1>Login</h1>
     <!--We will actually submit it to serverhere its just example-->
     <form action=http://wikipedia.com" method ="GET">
-        <input name = "username" type="text" placeholder="Username">
+        <label>
+            Username:
+            <input name = "username" type="text" placeholder="Username">
+        </label>
         <!--<input type="color">-->
         <!--<input type="radio">-->
-        <input name="password" type="password" placeholder="Password">
+        <label>
+            Password:
+            <input name="password" type="password" placeholder="Password">
+        </label>
         <button>Submit</button>
         <!--<input type="Submit">-->
     </form>
 
-
+    <!--<p>Labels are needed to make page accessible</p>-->
+    <!--<p>We should put input inside label tag</p>&lt;!&ndash;&ndash;&gt;-->
+    <!--<p>Each label for Each Input</p>&lt;!&ndash;&ndash;&gt;-->
     <!--By putting name in input tag it gets appended to link like -->
     <!--its added to help in retrieving data-->
     <!--So that data is sent from the form and sent for request-->
@@ -25,5 +33,16 @@
 <!--If we use form tag,the page automatically refreshes when we-->
 <!--press submit else it wont also the components added after form will-->
 <!--take a new line-->
+
+
+<h3>Another way of connecting Labels and input tags </h3>
+    <form action=http://wikipedia.com" method ="GET">
+        <label for ="username">Username:</label>
+        <input id="username" name = "username" type="text" placeholder="Username">
+        <label for = "password">Password:</label>
+        <input id ="password" name="password" type="password" placeholder="Password">
+        <p>As long as for in label and id in input are same they are related</p>
+        <button>Submit</button>
+    </form>
 </body>
 </html>
