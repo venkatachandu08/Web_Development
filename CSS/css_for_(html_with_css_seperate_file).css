@@ -5,3 +5,24 @@ h3{
 li{
     color:blue;
 }
+/*Use this site colours.neilorangepeel.com for more info on choosing colors*/
+/*In practical no developer uses plain color so better check that site*/
+
+/*Colours are also represented using hexadecimal cause it gives us more choices than decimal*/
+/*Black:#000000 and Red:#FF0000*/
+/*Use colourpicker.com to choose colou*/
+
+/*Color is also represented in RGB . It takes values from 0-255*/
+
+h1{
+    color: rgb(68,0,100);
+    /*These three arguements represeent RGB*/
+}
+
+/*We also use RGBA where A stands for alpha which represents transparency*/
+/*last challen A ranges from 0 to 1*/
+h1{
+    color: rgba(68,0,100,1);
+    /*These three arguements represeent RGB*/
+    /*Like it can be used to make it pale or something likethat*/
+}
