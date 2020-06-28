@@ -16,4 +16,7 @@ h1{
 span{
     font-size :2.0em;
 }
+h3{
+    font-family:Georgia;
+}
 /*here using em doubles the size of the already present para font size*/
